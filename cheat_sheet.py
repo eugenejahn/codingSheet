@@ -68,6 +68,8 @@ or
 
 >>> dict(sorted(x.items(), key=lambda item: item[1]))
 {0: 0, 2: 1, 1: 2, 4: 3, 3: 4}
+bar = [SOME EXPRESSION for item in some_iterable]
+table = [[0 for c in range(3)] for r in range(2)]
 
 scores = scores[:5]  # remove everything but the first 5 elements
 
